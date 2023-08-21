@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>componentes/timagecropper/timagecropper.js - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    
+    <h2><a href="index.html">Home</a></h2><h3>Modules</h3><ul><li><a href="module-Global.html">Global</a><ul class='methods'><li data-type='method'><a href="module-Global.html#~__adianti_ajax_exec">__adianti_ajax_exec</a></li><li data-type='method'><a href="module-Global.html#~__adianti_ajax_lookup">__adianti_ajax_lookup</a></li><li data-type='method'><a href="module-Global.html#~__adianti_append_page">__adianti_append_page</a></li><li data-type='method'><a href="module-Global.html#~__adianti_base_url">__adianti_base_url</a></li><li data-type='method'><a href="module-Global.html#~__adianti_block_ui">__adianti_block_ui</a></li><li data-type='method'><a href="module-Global.html#~__adianti_can_open_iframe">__adianti_can_open_iframe</a></li><li data-type='method'><a href="module-Global.html#~__adianti_clear_tabs">__adianti_clear_tabs</a></li><li data-type='method'><a href="module-Global.html#~__adianti_create_tab_item">__adianti_create_tab_item</a></li><li data-type='method'><a href="module-Global.html#~__adianti_debounce">__adianti_debounce</a></li><li data-type='method'><a href="module-Global.html#~__adianti_dialog">__adianti_dialog</a></li><li data-type='method'><a href="module-Global.html#~__adianti_download_file">__adianti_download_file</a></li><li data-type='method'><a href="module-Global.html#~__adianti_error">__adianti_error</a></li><li data-type='method'><a href="module-Global.html#~__adianti_failure_request">__adianti_failure_request</a></li><li data-type='method'><a href="module-Global.html#~__adianti_get_page">__adianti_get_page</a></li><li data-type='method'><a href="module-Global.html#~__adianti_goto_page">__adianti_goto_page</a></li><li data-type='method'><a href="module-Global.html#~__adianti_init_tabs">__adianti_init_tabs</a></li><li data-type='method'><a href="module-Global.html#~__adianti_input">__adianti_input</a></li><li data-type='method'><a href="module-Global.html#~__adianti_load_html">__adianti_load_html</a></li><li data-type='method'><a href="module-Global.html#~__adianti_load_page">__adianti_load_page</a></li><li data-type='method'><a href="module-Global.html#~__adianti_load_tab">__adianti_load_tab</a></li><li data-type='method'><a href="module-Global.html#~__adianti_message">__adianti_message</a></li><li data-type='method'><a href="module-Global.html#~__adianti_open_page">__adianti_open_page</a></li><li data-type='method'><a href="module-Global.html#~__adianti_parse_html">__adianti_parse_html</a></li><li data-type='method'><a href="module-Global.html#~__adianti_post_data">__adianti_post_data</a></li><li data-type='method'><a href="module-Global.html#~__adianti_process_popover">__adianti_process_popover</a></li><li data-type='method'><a href="module-Global.html#~__adianti_query_string">__adianti_query_string</a></li><li data-type='method'><a href="module-Global.html#~__adianti_query_to_json">__adianti_query_to_json</a></li><li data-type='method'><a href="module-Global.html#~__adianti_question">__adianti_question</a></li><li data-type='method'><a href="module-Global.html#~__adianti_register_state">__adianti_register_state</a></li><li data-type='method'><a href="module-Global.html#~__adianti_scroll_tab">__adianti_scroll_tab</a></li><li data-type='method'><a href="module-Global.html#~__adianti_scroll_to_active_tab">__adianti_scroll_to_active_tab</a></li><li data-type='method'><a href="module-Global.html#~__adianti_set_active_iframe">__adianti_set_active_iframe</a></li><li data-type='method'><a href="module-Global.html#~__adianti_set_current_tab">__adianti_set_current_tab</a></li><li data-type='method'><a href="module-Global.html#~__adianti_set_debug">__adianti_set_debug</a></li><li data-type='method'><a href="module-Global.html#~__adianti_set_language">__adianti_set_language</a></li><li data-type='method'><a href="module-Global.html#~__adianti_set_name">__adianti_set_name</a></li><li data-type='method'><a href="module-Global.html#~__adianti_show_popover">__adianti_show_popover</a></li><li data-type='method'><a href="module-Global.html#~__adianti_store_tab_content">__adianti_store_tab_content</a></li><li data-type='method'><a href="module-Global.html#~__adianti_unblock_ui">__adianti_unblock_ui</a></li><li data-type='method'><a href="module-Global.html#~__adianti_warning">__adianti_warning</a></li><li data-type='method'><a href="module-Global.html#~__adianti_window">__adianti_window</a></li></ul></li><li><a href="module-TArrowStep.html">TArrowStep</a><ul class='methods'><li data-type='method'><a href="module-TArrowStep.html#~tarrowstep_disable_field">tarrowstep_disable_field</a></li><li data-type='method'><a href="module-TArrowStep.html#~tarrowstep_enable_field">tarrowstep_enable_field</a></li></ul></li><li><a href="module-TBarcodeInputReader.html">TBarcodeInputReader</a></li><li></li><li><a href="module-TButton.html">TButton</a></li><li><a href="module-TCheckGroup.html">TCheckGroup</a></li><li><a href="module-TColor.html">TColor</a></li><li><a href="module-TCombo.html">TCombo</a></li><li><a href="module-TDataGrid.html">TDataGrid</a></li><li><a href="module-TDate.html">TDate</a></li><li><a href="module-TDateTime.html">TDateTime</a></li><li><a href="module-TDbEntry.html">TDbEntry</a></li><li><a href="module-TDbMultiSearch.html">TDbMultiSearch</a></li><li><a href="module-TDbUniqueSearch.html">TDbUniqueSearch</a></li><li><a href="module-TDialog.html">TDialog</a></li><li><a href="module-TEntry.html">TEntry</a><ul class='methods'><li data-type='method'><a href="module-TEntry.html#~tentry_lower">tentry_lower</a></li><li data-type='method'><a href="module-TEntry.html#~tentry_mask">tentry_mask</a></li><li data-type='method'><a href="module-TEntry.html#~tentry_upper">tentry_upper</a></li></ul></li><li><a href="module-TExpander.html">TExpander</a></li><li><a href="module-TField.html">TField</a></li><li><a href="module-TFieldList.html">TFieldList</a></li><li><a href="module-TFile.html">TFile</a></li><li><a href="module-TForm.html">TForm</a></li><li><a href="module-TFullCalendar.html">TFullCalendar</a></li><li><a href="module-THtmlEditor.html">THtmlEditor</a></li><li><a href="module-TIcon.html">TIcon</a></li><li><a href="module-TImageCropper.html">TImageCropper</a></li><li><a href="module-TJQueryDialog.html">TJQueryDialog</a></li><li><a href="module-TKanban.html">TKanban</a></li><li><a href="module-TLabel.html">TLabel</a></li><li><a href="module-TMenuBar.html">TMenuBar</a></li><li><a href="module-TMultiEntry.html">TMultiEntry</a></li><li><a href="module-TMultiFile.html">TMultiFile</a><ul class='methods'><li data-type='method'><a href="module-TMultiFile.html#~MultiFileUploader">MultiFileUploader</a></li></ul></li><li></li><li><a href="module-TPassword.html">TPassword</a></li><li><a href="module-TQrCodeInputReader.html">TQrCodeInputReader</a></li><li><a href="module-TRadioGroup.html">TRadioGroup</a></li><li><a href="module-TSeekButton.html">TSeekButton</a></li><li><a href="module-TSelect.html">TSelect</a></li><li><a href="module-TSlider.html">TSlider</a></li><li><a href="module-TSortList.html">TSortList</a></li><li><a href="module-TSpinner.html">TSpinner</a></li><li><a href="module-TTable.html">TTable</a></li><li><a href="module-TTreeView.html">TTreeView</a></li><li><a href="module-TiconView.html">TiconView</a></li></ul>
+    
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">componentes/timagecropper/timagecropper.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/** @module TImageCropper */
+
+var TImageCropper = (function (field, title, buttonLabel, serviceAction, fileHandling, base64, webcam, config, name, extension) {
+
+    this.cropper;
+    this.url;
+    this.name = name;
+    this.type = extension;
+
+    this.fileHandling = fileHandling;
+    this.serviceAction = serviceAction;
+    this.field = field;
+    this.title = title;
+    this.buttonLabel = buttonLabel;
+    this.config = config;
+    this.base64 = base64;
+    this.webcam = webcam;
+
+    this.file_input_hidden = $('input[name=' + field + ']');
+    this.file = $('#tfile_timagecropper_' + field);
+    this.image = $('#timagecropper_' + field);
+    this.actions = $('#timagecropper_' + field + '+div.timagecropper_actions');
+    this.placeholder = this.actions.parent().find('.placeholder');
+    this.edit = this.actions.find('[action=edit]');
+    this.remove = this.actions.find('[action=remove]');
+
+    this.file.click(function(evt){
+        // Not use webcan or is mobile
+        if(! webcam || /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+            return;
+        }
+
+        evt.preventDefault();
+
+        var div = document.createElement('div');
+        div.id =  'webcam_' + name.replace('.','');
+        div.title = 'WebCam';
+
+        $(div).addClass('timagecropper_webcam');
+
+        $('#adianti_div_content').append(div);
+
+        var height = $(window).height() * .75;
+        var width = (height / 3) * 4;
+
+        Webcam.set({
+            image_format: 'png',
+            width: width,
+            height: height,
+            dest_width: width,
+            dest_height: height,
+            constraints: {}
+        });
+        
+        // remove listeners
+        Webcam.off( 'error' );
+        
+        // custom error handler
+        Webcam.on( 'error', function(err) {
+            if ((err.name == 'FlashError') || (err.name == 'WebcamError')) {
+                __adianti_error('Error', err.message);
+            } else {
+                __adianti_error('Error', "Could not access webcam: " + err.message);
+            }
+        });
+        
+        tjquerydialog_start('#' + div.id, true, true, false, width, height, 0, 0, 2050, [
+            {
+                text: 'Capturar',
+                click: function() {
+                    Webcam.snap( function(data_uri) {
+                        var file = dataUrltoFile(data_uri);
+                        onCloseWebCam(div.id);
+                        onUpload(null, [file]);
+                    });
+                }
+            }
+        ], function(){ onCloseWebCam(div.id) }, true, '');
+        
+        setTimeout(function() { Webcam.attach('#' + div.id) }, 500);
+    });
+
+    var onCloseWebCam = function(id)  {
+        Webcam.reset();
+        $('#' + id).remove();
+    };
+
+    this.dropzone = $('#timagecropper_container_' + field);
+    
+    this.dropzone.on('drag dragstart dragend dragover dragenter dragleave drop', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+    });
+
+    this.dropzone.on('dragover dragenter', function() {
+        $('#timagecropper_container_' + field).addClass('highlight');
+    });
+    
+    this.dropzone.on('dragleave dragend drop', function() {
+        $('#timagecropper_container_' + field).removeClass('highlight');
+    });
+
+    var that = this;
+
+    var onEdit = function (e) {
+        __adianti_block_ui();
+        that.url = that.image[0].src;
+        open();
+        __adianti_unblock_ui();
+        e.preventDefault();
+    }
+
+    var onRemove = function (e) {
+        var image = $('#timagecropper_' + that.field)[0];
+        if (that.fileHandling) {
+
+            var file_data = getData();
+            
+            file_data.delFile = file_data.fileName;
+            file_data.fileName = '';
+            file_data.newFile = '';
+
+            // if delete recently included file (not in server already)
+            if (file_data.delFile == file_data.newFile) {
+                file_data = '';
+            }
+
+            setData(file_data);
+            image.src = ' ';
+        } else {
+            var image = $('#timagecropper_' + that.field)[0];
+            that.url = null;
+            image.src = ' ';
+            setData('');
+        }
+        
+        that.actions.hide();
+        that.placeholder.show();
+        e.preventDefault();
+    }
+
+    var onUpload = function (e, webcamimages) {
+        __adianti_block_ui();
+        var files = webcamimages||e.target.files||e.originalEvent.dataTransfer.files;
+        
+        if (files &amp;&amp; files.length > 0) {
+            var file = files[0];
+
+            that.name = file.name;
+            that.type = file.type;
+
+            processFile(file);
+            __adianti_unblock_ui();
+        } else {
+            __adianti_unblock_ui();
+        }
+    };
+
+    var processFile = function (file) {
+        if (URL) {
+            that.url = URL.createObjectURL(file);
+            open();
+        } else if (FileReader) {
+            reader = new FileReader();
+            reader.onload = function (e) {
+                that.url = reader.result;
+                open();
+            };
+            reader.readAsDataURL(file);
+        }
+    }
+
+    var init = function () {
+        var image = $('#timgagecropper_image_' + that.field)[0];
+
+        var defaults = {
+            viewMode: 0,
+            highlight: true,
+            rotatable: true,
+            responsive: true,
+            restore: true,
+            modal: true,
+            guides: true
+        };
+
+        if (that.config.aspectRatio) {
+            defaults.aspectRatio = that.config.aspectRatio;
+        }
+
+        that.cropper = new Cropper(image, defaults);
+    }
+
+    var open = function () {
+        __adianti_block_ui();
+        var div = document.createElement('div');
+        var container = document.createElement('div');
+        var actionsContainer = document.createElement('div');
+        var actions = document.createElement('div');
+        var img = document.createElement('img');
+        var width = $(window).width() * .95;
+        var height = $(window).height() * .90;
+
+        img.src = that.url;
+        img.id = 'timgagecropper_image_' + that.field;
+
+        div.title = that.title;
+        div.id = 'container_timgagecropper_image_' + that.field;
+
+        actionsContainer.appendChild(actions);
+        container.appendChild(img);
+        container.appendChild(actionsContainer);
+        div.appendChild(container);
+
+        if ($(window).width() &lt; 540) {
+            var cropWidth = width - 30;
+            var cropHeight = height - 200;
+        } else {
+            var cropWidth = width - 100;
+            var cropHeight = height - 130;
+        }
+        
+        container.setAttribute('style', 'width: ' + cropWidth + 'px; height: ' + cropHeight + 'px');
+        
+        img.setAttribute('class', 'img_timagecrroper');
+        container.setAttribute('class', 'container_timagecrroper');
+        actionsContainer.setAttribute('class', 'actions_timagecrroper');
+        actionsContainer.setAttribute('class', 'actions_timagecrroper');
+
+        if (that.config.enableButtonDrag) {
+            actions.appendChild(getImageCropperDragButton());
+        }
+
+        if (that.config.enableButtonScale) {
+            actions.appendChild(getImageCropperScaleButton());
+        }
+
+        if (that.config.enableButtonZoom) {
+            actions.appendChild(getImageCropperZoomButton());
+        }
+
+        if (that.config.enableButtonRotate) {
+            actions.appendChild(getImageCropperRotateButton());
+        }
+
+        if (that.config.enableButtonRotate) {
+            actions.appendChild(getImageCropperResetButton());
+        }
+
+        $('#adianti_div_content').append(div);
+
+        tjquerydialog_start('#' + div.id, true, false, false, width, height, 0, 0, 2050, [
+            {
+                text: that.buttonLabel,
+                click: save
+            }
+        ], null, true, '');
+
+        init();
+
+        __adianti_unblock_ui();
+    };
+
+    var dataUrltoFile = function (dataurl) {
+        var arr = dataurl.split(',');
+        var bstr = atob(arr[1]);
+        var n = bstr.length;
+        var u8arr = new Uint8Array(n);
+        while (n--) {
+            u8arr[n] = bstr.charCodeAt(n);
+        }
+
+        var name = (that.name? that.name : 'image' + Math.floor((Math.random() * 1000000) + 1) + '.png' );
+        var type = (that.type? that.type : 'image/png') ;
+        
+        return new File([u8arr], name, { type: type});
+    };
+
+    var save = function () {
+        __adianti_block_ui();
+        var canvas = that.cropper.getCroppedCanvas({
+            width: that.config.cropWidth,
+            heigth: that.config.cropHeight
+        });
+
+        var canvasUrl = canvas.toDataURL(that.type);
+        
+        $('#timagecropper_' + that.field).attr('src', canvasUrl);
+        $('#timagecropper_' + that.field).show();
+        
+        that.actions.show();
+        that.placeholder.hide();
+
+        if (that.base64) {
+            that.file_input_hidden.val(canvasUrl);
+        }
+        else {
+            try {
+                var file = dataUrltoFile(canvasUrl);
+                var form_data = new FormData();
+                form_data.append('fileName', file);
+
+                var xhr = new XMLHttpRequest();
+                xhr.open('POST', that.serviceAction, true);
+                xhr.addEventListener('readystatechange', onReadyStateChange, false);
+                xhr.send(form_data);
+
+                if (that.fileHandling) {
+                    var file_data = getData();
+
+                    // if delete recently included file (not in server already)
+                    if (file_data.fileName &amp;&amp; file_data.fileName != file_data.newFile ) {
+                        file_data.delFile = file_data.fileName;
+                    }
+
+                    file_data.newFile = 'tmp/' + that.name;
+                    file_data.fileName = 'tmp/' + that.name;
+                    setData(file_data);
+                } else {
+                    that.file_input_hidden.val(that.name);
+                }
+            }
+            catch (e) {
+                __adianti_error('Error', e);
+            }
+        }
+        
+        $('#container_timgagecropper_image_' + that.field).closest('.ui-dialog').remove();
+        $('#container_timgagecropper_image_' + that.field).remove();
+
+        that.cropper.destroy();
+        __adianti_unblock_ui();
+    };
+
+    var onReadyStateChange = function(evt)
+    {
+        var status = null;
+        
+        try {
+            status = evt.target.status;
+        }
+        catch(e) {
+            return;
+        }
+        
+        if (status == '200' &amp;&amp; evt.target.readyState == '4' &amp;&amp; evt.target.responseText) {
+            try {
+                var response = JSON.parse( evt.target.responseText );
+                
+                if ( response.type == 'error' ) {
+                    __adianti_error('Error', response.msg);
+                }
+            }
+            catch (e) {
+                __adianti_error('Error', e);
+            }
+        }
+    };
+    
+    var setData = function (data) {
+        if (data) {
+            $(that.file_input_hidden).val(encodeURIComponent(JSON.stringify(data)));
+        }
+        else {
+            $(that.file_input_hidden).val('');
+        }
+    };
+
+    that.sendData = setData;
+
+    var getData = function () {
+        var file_data = decodeURIComponent(that.file_input_hidden.val());
+        var file_data_json = '';
+
+        try {
+            file_data_json = file_data ? JSON.parse(file_data) : {};
+        }
+        catch (e) {
+            file_data_json = {};
+        }
+        return file_data_json;
+    };
+    
+    // Actions
+
+    // Reset    
+    var getImageCropperResetButton = function () {
+        var icon = document.createElement('i');
+        var button = document.createElement('button');
+        button.setAttribute('class', 'btn btn-default');
+        icon.setAttribute('class', 'fa fa-sync-alt');
+        button.setAttribute('title', that.config.labels.reset);
+        button.addEventListener('click', function () {
+            that.cropper.reset();
+        });
+        button.addEventListener('touchstart', function () {
+            that.cropper.reset();
+        });
+        button.appendChild(icon);
+        return button;
+    }
+
+    // Scale
+    var getImageCropperScaleButton = function () {
+        var h = getImageCropperScaleHorizontalButton();
+        var v = getImageCropperScaleVerticalButton();
+
+        var div = document.createElement('div');
+        div.appendChild(h);
+        div.appendChild(v);
+
+        return div;
+    }
+
+    var getImageCropperScaleHorizontalButton = function () {
+        var icon = document.createElement('i');
+        var button = document.createElement('button');
+        button.setAttribute('class', 'btn btn-default');
+        icon.setAttribute('class', 'fa fa-arrows-alt-h');
+        button.setAttribute('title', that.config.labels.scalex);
+        button.setAttribute('data-option', '-1');
+        button.addEventListener('click', function () {
+            imageCropperScaleX(this);
+        });
+        button.addEventListener('touchstart', function () {
+            imageCropperScaleX(this);
+        });
+        button.appendChild(icon);
+        return button;
+    }
+
+    var getImageCropperScaleVerticalButton = function () {
+        var icon = document.createElement('i');
+        var button = document.createElement('button');
+        button.setAttribute('class', 'btn btn-default');
+        icon.setAttribute('class', 'fa fa-arrows-alt-v');
+        button.setAttribute('title', that.config.labels.scaley);
+        button.setAttribute('data-option', '-1');
+        button.addEventListener('click', function () { imageCropperScaleY(this) });
+        button.addEventListener('touchstart', function () { imageCropperScaleY(this) });
+        button.appendChild(icon);
+        return button;
+    }
+
+
+    var imageCropperScaleX = function (element) {
+        var scale = element.getAttribute('data-option');
+        that.cropper.scaleX(scale);
+        element.setAttribute('data-option', scale * -1);
+    }
+
+
+    var imageCropperScaleY = function (element) {
+        var scale = element.getAttribute('data-option');
+        that.cropper.scaleY(scale);
+        element.setAttribute('data-option', scale * -1);
+    }
+
+    // Drag
+    var getImageCropperDragButton = function () {
+        var m = getImageCropperDragMoveButton();
+        var c = getImageCropperDragCropButton();
+
+        var div = document.createElement('div');
+        div.appendChild(m);
+        div.appendChild(c);
+
+        return div;
+    }
+
+    var getImageCropperDragMoveButton = function () {
+        var icon = document.createElement('i');
+        var button = document.createElement('button');
+        button.setAttribute('class', 'btn btn-default');
+        icon.setAttribute('class', 'fa fa-arrows-alt');
+        button.setAttribute('title', that.config.labels.move);
+        button.addEventListener('click', function () {
+            that.cropper.setDragMode("move");
+        });
+        button.addEventListener('touchstart', function () {
+            that.cropper.setDragMode("move");
+        });
+        button.appendChild(icon);
+        return button;
+    }
+
+    var getImageCropperDragCropButton = function () {
+        var icon = document.createElement('i');
+        var button = document.createElement('button');
+        button.setAttribute('class', 'btn btn-default');
+        icon.setAttribute('class', 'fa fa-crop-alt');
+        button.setAttribute('title', that.config.labels.crop);
+        button.addEventListener('click', function () {
+            that.cropper.setDragMode("crop");
+        });
+        button.addEventListener('touchstart', function () {
+            that.cropper.setDragMode("crop");
+        });
+        button.appendChild(icon);
+
+        return button;
+    }
+
+    // Zoom
+    var getImageCropperZoomButton = function () {
+        var zin = getImageCropperZoomInButton();
+        var zout = getImageCropperZoomOutButton();
+
+        var div = document.createElement('div');
+        div.appendChild(zin);
+        div.appendChild(zout);
+
+        return div;
+    }
+
+    var getImageCropperZoomInButton = function () {
+        var icon = document.createElement('i');
+        var button = document.createElement('button');
+        button.setAttribute('class', 'btn btn-default');
+        icon.setAttribute('class', 'fa fa-search-plus');
+        button.setAttribute('title', that.config.labels.zoomin);
+        button.addEventListener('click', function () {
+            that.cropper.zoom(.1);
+        });
+        button.addEventListener('touchstart', function () {
+            that.cropper.zoom(.1);
+        });
+        button.appendChild(icon);
+        return button;
+    }
+
+    var getImageCropperZoomOutButton = function () {
+        var icon = document.createElement('i');
+        var button = document.createElement('button');
+        button.setAttribute('class', 'btn btn-default');
+        icon.setAttribute('class', 'fa fa-search-minus');
+        button.setAttribute('title', that.config.labels.zoomout);
+        button.addEventListener('click', function () {
+            that.cropper.zoom(-.1);
+        });
+        button.addEventListener('touchstart', function () {
+            that.cropper.zoom(-.1);
+        });
+        button.appendChild(icon);
+        return button;
+    }
+
+    // Rotate
+    var getImageCropperRotateButton = function () {
+        var rr = getImageCropperRotateRightButton();
+        var rl = getImageCropperRotateLeftButton();
+
+        var div = document.createElement('div');
+        div.appendChild(rl);
+        div.appendChild(rr);
+
+        return div;
+    }
+
+    var getImageCropperRotateRightButton = function () {
+        var icon = document.createElement('i');
+        var button = document.createElement('button');
+        button.setAttribute('class', 'btn btn-default');
+        icon.setAttribute('class', 'fa fa-redo-alt');
+        button.setAttribute('title', that.config.labels.rotateright);
+        button.addEventListener('click', function () {
+            that.cropper.rotate(45);
+        });
+        button.addEventListener('touchstart', function () {
+            that.cropper.rotate(45);
+        });
+        button.appendChild(icon);
+        return button;
+    }
+
+    var getImageCropperRotateLeftButton = function () {
+        var icon = document.createElement('i');
+        var button = document.createElement('button');
+        button.setAttribute('class', 'btn btn-default');
+        icon.setAttribute('class', 'fa fa-undo-alt');
+        button.setAttribute('title', that.config.labels.rotateleft);
+        button.setAttribute('data-option', '-45');
+        button.addEventListener('click', function () {
+            that.cropper.rotate(-45);
+        });
+        button.addEventListener('touchstart', function () {
+            that.cropper.rotate(-45);
+        });
+        button.appendChild(icon);
+        return button;
+    }
+    
+    this.clear = function(){
+        this.actions.hide();
+        this.image.hide();
+        this.file_input_hidden.val('');
+    }
+    
+    this.setValue = function(value){
+        
+        this.clear();
+        
+        if(value)
+        {
+            if (this.fileHandling) {
+                var data = {"fileName": value};
+        
+                if(value.indexOf('%7B%') >= 0 )
+                {
+                    data = JSON.parse(decodeURIComponent(value));
+                }
+                
+                this.image.attr('src', 'download.php?file='+data.fileName);
+                this.image.show();
+                this.actions.show();    
+                
+                this.sendData(data);
+            } else {
+                this.file_input_hidden.val(value);
+            }
+        }
+        
+        
+    }
+
+    this.file.change(onUpload);
+    this.dropzone.on('drop',onUpload);
+    this.edit.click(onEdit);
+    this.remove.click(onRemove);
+
+});
+
+function timagecropper_start(field, title, buttonLabel, serviceAction, fileHandling, base64, webcam, config, name, extension) {
+    var timagecropper = new TImageCropper(field, title, buttonLabel, serviceAction, fileHandling, base64, webcam, config, name, extension);
+    $('input[name=' + field + ']')[0].timagecropper = timagecropper;
+}
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.2</a> on Mon Aug 21 2023 12:34:09 GMT-0300 (Horário Padrão de Brasília) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+
+</body>
+</html>
