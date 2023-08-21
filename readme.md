@@ -15,3 +15,19 @@ Para contribuir com a documentação de funções é muito simples
 *   docs - Pasta gerada com a documentação dos arquivos js
 
 Para visaulizar a documentação acesse: [https://jhefersonbr.github.io/documentacao_adianti_js](https://jhefersonbr.github.io/documentacao_adianti_js)
+
+#### Exemplo de documentação de função:
+
+```javascript
+/**
+ * Desabilita o TArrowStep
+ * @function
+ * @param {string} name - Nome do TArrowStep
+ */
+function tarrowstep_disable_field(name)
+{
+    $(`.arrow_steps_${name}`).addClass('disabled');
+}
+```
+
+É muito importante utilzar o `@function` pois sem ele o gerador de documentação pode não ver a função e não inserir a mesma na documentação
