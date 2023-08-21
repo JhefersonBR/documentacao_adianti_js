@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "docdash": "^2.0.1"
+  },
+  "script": {
+    "generate-docs": "node_modules/.bin/jsdoc -c jsdoc.json"
+  }
+}
